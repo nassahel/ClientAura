@@ -16,7 +16,10 @@ const Cuestionary = () => {
     const { responses } = useResponses();
     const [step, setStep] = useState<number>(1);
 
-    const handleNextStep = () => { if (step < 6) setStep(prevStep => prevStep + 1) }
+    const handleNextStep = () => {
+        if (step < 6) setStep(prevStep => prevStep + 1)
+        if (step === 6) window.location.href = 'https://www.customerscoops.com/';
+    }
     const handleBackStep = () => { if (step >= 1) setStep(prevStep => prevStep - 1) }
     const percent = [17, 34, 50, 67, 84, 100];
 

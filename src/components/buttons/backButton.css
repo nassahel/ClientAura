@@ -7,4 +7,6 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    color: #231331;
+    border: 1px solid #231331;
 }

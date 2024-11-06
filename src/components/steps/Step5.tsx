@@ -6,8 +6,7 @@ import { stepFiveButtons } from "./stepsButtonsData.ts"
 const Step5 = () => {
   return (
     <div>
-      <p><b>Ahora te vamos a sorprender...</b> <br /> ¿Acuál industria pertenece tu empresa? </p>
-     
+      <p><b>Ahora te vamos a sorprender...</b> <br /> ¿Acuál industria pertenece tu empresa? </p>     
       <div className="step2-buttons-conteiner">
         {
           stepFiveButtons.map((item, index) => (

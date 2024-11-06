@@ -9,8 +9,7 @@ export interface Resp {
   export interface ContextType {
     responses: Resp;
     setResponses: React.Dispatch<React.SetStateAction<Resp>>;
-  }
-  
+  }  
 
   export interface StepButtonOne {
     buttonText: string;

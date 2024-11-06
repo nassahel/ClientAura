@@ -2,7 +2,6 @@ import OptionButton from "../buttons/OptionButton"
 import "./stepsStyles.css"
 import { stepThreeButtons } from "./stepsButtonsData.ts"
 
-
 const Step3 = () => {
   return (
     <div>

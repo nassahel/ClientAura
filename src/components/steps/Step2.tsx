@@ -3,11 +3,8 @@ import "./stepsStyles.css"
 import { stepTwoButtons } from "./stepsButtonsData.ts"
 import { useResponses } from "../../Context/ResponsesContext"
 
-
-
 const Step2 = () => {
   const { responses } = useResponses();
-
 
   return (
     <div>

@@ -1,7 +1,6 @@
 import { useResponses } from "../../Context/ResponsesContext";
 
 
-
 const Step6 = () => {
     const { responses } = useResponses();
     console.log(responses);

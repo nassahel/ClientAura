@@ -1,9 +1,6 @@
 import { useResponses } from "../../Context/ResponsesContext"
 import "./stepsStyles.css"
 
-
-
-
 const Step1 = () => {
     const { responses, setResponses } = useResponses();
 
@@ -17,6 +14,7 @@ const Step1 = () => {
                 value={responses.name}
                 placeholder="Nombre"
                 className="input-name"
+                maxLength={50}
             />
         </div>
     );

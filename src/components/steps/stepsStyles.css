@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    /* width: 50rem; */
 }
 
 .step6 h2 {
@@ -20,7 +19,6 @@
     font-size: 2rem;
     font-style: italic;
 }
-
 
 .input-name {
     border: none;
