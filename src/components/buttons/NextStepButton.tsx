@@ -9,7 +9,7 @@ interface Props {
 
 const NextStepButton: React.FC<Props> = ({ buttonName = 'Boton', onClick, disabled }) => {
   return (
-    <button disabled={disabled} className={disabled ? 'button-next-disabled' : 'button-next'} onClick={onClick}>{buttonName}</button>
+    <button aria-label='Boton siguiente' disabled={disabled} className={disabled ? 'button-next-disabled' : 'button-next'} onClick={onClick}>{buttonName}</button>
   )
 }
 

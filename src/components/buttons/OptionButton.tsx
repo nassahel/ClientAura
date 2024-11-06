@@ -5,7 +5,7 @@ import { Resp } from '../../Types/types';
 
 interface Props {
   buttonName?: string;
-  buttonType?: string;
+  buttonType?: 'A' | 'B';
   buttonLetter?: string;
   buttonStep?: keyof Resp;
 }
