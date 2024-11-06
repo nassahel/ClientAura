@@ -8,7 +8,7 @@ interface Props {
 
 const BackButton: React.FC<Props> = ({ onClick }) => {
     return (
-        <button className='button-back' onClick={onClick}><ArrowLeftIcon /></button>
+        <button className='button-back' onClick={onClick}><ArrowLeftIcon color='#231331' /></button>
     )
 }
 
