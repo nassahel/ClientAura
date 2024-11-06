@@ -1,5 +1,5 @@
 import React from 'react'
-import "./BackButton.css"
+import "./backButton.css"
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 interface Props {
