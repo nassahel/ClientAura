@@ -1,0 +1,20 @@
+.button-next {
+    background-color: #231331;
+    color: white;
+    border-radius: 50rem;
+    border: none;
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.button-next-disabled {
+    background-color: lightgray;
+    color: gray;
+    border-radius: 50rem;
+    border: none;
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.2rem;
+}
