@@ -50,6 +50,7 @@
     font-weight: 300;
     margin: 0 2rem;
     margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .gradient-background-page {
@@ -148,6 +149,7 @@
         font-size: 1.9rem;
         line-height: 2.47rem;
         font-weight: 300;
+
     }
 
     .gradient-background-banner {

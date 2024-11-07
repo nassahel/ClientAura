@@ -16,7 +16,7 @@ Este proyecto consta de un formulario dividido en 6 pasos.
 - Se organizo el proyecto en ficheros destinados para cada función.
 - NO SE USÓ RAMA DEVELOP/FEATURE/ETC PARA AGILIZAR EL DESARROLLO DEL PROYECTO.
 
-- [Link del deploy de la página en Vercel](https://cus-scoop-87b4.vercel.app/)
+- [Link del deploy de la página en Vercel](https://cus-scoop.vercel.app/)
 
 - [Link del repositorio de envio de email](https://github.com/nassahel/cusScoopEmail)  (Tiene su documentación en su propio readme)
 
