@@ -52,7 +52,11 @@
     margin-top: 5rem;
 }
 
-.gradient-background {
+.gradient-background-page {
+    background: transparent;
+}
+
+.gradient-background-banner {
     background: linear-gradient(283.73deg, #231331 -29.4%, #00CCBC 50.02%);
 }
 
@@ -146,7 +150,15 @@
         font-weight: 300;
     }
 
-    .gradient-background {
+    .gradient-background-banner {
+        background: transparent;
+    }
+    
+    .gradient-background-page {
+        background: linear-gradient(283.73deg, #231331 -29.4%, #00CCBC 50.02%);
+    }
+
+    .gradient-background-banner-big {
         background: linear-gradient(283.73deg, #231331 -29.4%, #00CCBC 50.02%);
     }
 

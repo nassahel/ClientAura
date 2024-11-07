@@ -48,7 +48,7 @@ const Cuestionary = () => {
 
 
     return (
-        <div className={`${step === 6 ? "gradient-background" : ""} cuestionary`}>
+        <div className={`${step === 6 ? "gradient-background-page" : ""}  cuestionary`}>
             <div className='progress-bar'>
                 <div className='progress' style={{ width: `${percent[step - 1]}%` }}></div>
             </div>
@@ -80,7 +80,7 @@ const Cuestionary = () => {
                 </div>
             </div>
 
-            <div className={`back-img ${step !== 6 ? "gradient-background" : ""} `}>
+            <div className={`back-img gradient-background-banner ${step !== 6 ? 'gradient-background-banner-big' : ''} `}>
                 <div className='step'>
                     0{step} <span className='total-step'>| 06</span>
                 </div>
