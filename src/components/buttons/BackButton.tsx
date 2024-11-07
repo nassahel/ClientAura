@@ -3,12 +3,12 @@ import "./backButton.css"
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 interface Props {
-    onClick?: () => void;
+    handleBackStep?: () => void;
 }
 
-const BackButton: React.FC<Props> = ({ onClick }) => {
+const BackButton: React.FC<Props> = ({ handleBackStep }) => {
     return (
-        <button className='button-back' aria-label="Volver" onClick={onClick}><ArrowLeftIcon color='#231331' width={22} height={22} /></button>
+        <button className='button-back' aria-label="Volver" onClick={handleBackStep}><ArrowLeftIcon color='#231331' width={22} height={22} /></button>
     )
 }
 

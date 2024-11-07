@@ -3,13 +3,13 @@ import "./nextStepButton.css"
 
 interface Props {
   buttonName?: string;
-  onClick?: () => void;
+  handleNextStep?: () => void;
   disabled?: boolean;
 }
 
-const NextStepButton: React.FC<Props> = ({ buttonName = 'Boton', onClick, disabled }) => {
+const NextStepButton: React.FC<Props> = ({ buttonName = 'Boton', handleNextStep, disabled }) => {
   return (
-    <button aria-label='Boton siguiente' disabled={disabled} className={disabled ? 'button-next-disabled' : 'button-next'} onClick={onClick}>{buttonName}</button>
+    <button aria-label='Boton siguiente' disabled={disabled} className={disabled ? 'button-next-disabled' : 'button-next'} onClick={handleNextStep}>{buttonName}</button>
   )
 }
 

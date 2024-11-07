@@ -42,7 +42,6 @@ export const stepThreeButtons: StepButtonTwo[] = [
   },
 ]
 
-
 export const stepFourButtons: StepButtonOne[] = [
   { buttonText: 'SAP', },
   { buttonText: 'Microsoft Dynamics', },
@@ -54,7 +53,6 @@ export const stepFourButtons: StepButtonOne[] = [
   { buttonText: 'CRM Propio', },
   { buttonText: 'No tengo CRM', },
 ]
-
 
 export const stepFiveButtons: StepButtonOne[] = [
   { buttonText: 'Tecnología', },

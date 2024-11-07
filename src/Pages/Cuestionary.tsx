@@ -21,10 +21,11 @@ const Cuestionary = () => {
         if (step === 6) window.location.href = 'https://www.customerscoops.com/';
     }
     const handleBackStep = () => { if (step >= 1) setStep(prevStep => prevStep - 1) }
-    const percent = [17, 34, 50, 67, 84, 100];
+    const percent: number[] = [17, 34, 50, 67, 84, 100];
 
 
-    let nextButtonName = '';
+    let nextButtonName: string = '';
+
     step === 1 ? nextButtonName = "Comenzar" :
         step === 6 ? nextButtonName = "Finalizar" :
             nextButtonName = "Siguiente"
@@ -46,7 +47,6 @@ const Cuestionary = () => {
         }
     };
 
-
     return (
         <div className={`${step === 6 ? "gradient-background-page" : ""}  cuestionary`}>
             <div className='progress-bar'>
@@ -54,7 +54,6 @@ const Cuestionary = () => {
             </div>
             <div className='cuestionary-items'>
                 <div className='step-conteiner'>
-
                     <div className='content'>
                         <div className='logo-and-buttons'>
                             <img src={logo} alt="customerScoops logo" className='desktop-logo' />
@@ -65,30 +64,26 @@ const Cuestionary = () => {
                             {step === 5 && <Step5 />}
                             {step === 6 && <Step6 />}
                         </div>
-
                         <div className='buttons-conteiner'>
                             <div className='back-button-container'>
-                                {(step !== 1 && step !== 6) && <BackButton onClick={handleBackStep} />}
+                                {(step !== 1 && step !== 6) && <BackButton handleBackStep={handleBackStep} />}
                             </div>
                             <NextStepButton
                                 buttonName={nextButtonName}
-                                onClick={handleNextStep}
+                                handleNextStep={handleNextStep}
                                 disabled={!isStepValid()}
                             />
                         </div>
                     </div>
                 </div>
             </div>
-
             <div className={`back-img gradient-background-banner ${step !== 6 ? 'gradient-background-banner-big' : ''} `}>
                 <div className='step'>
                     0{step} <span className='total-step'>| 06</span>
                 </div>
                 <img src={logo} alt="customerScoops logo" className='movil-logo' />
-
                 <img src={person} alt="persona mirando el movil" className='guy-img' />
             </div>
-
         </div>
     )
 }
