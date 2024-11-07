@@ -10,10 +10,7 @@
     color: #231331;
 }
 
-.activeButton {
-    background-color: #231331;
-    color: white;
-}
+
 
 /* Button B */
 
@@ -31,6 +28,12 @@
     padding: 0 3.5rem;
     font-size: 1.1rem;
     color: #231331;
+}
+
+
+.activeButton {
+    background-color: #231331;
+    color: white;
 }
 
 .button-letter {

@@ -5,7 +5,7 @@ import { stepFourButtons } from "./stepsButtonsData.ts"
 
 const Step4 = () => {
   return (
-    <div>
+    <div className="current-step">
       <p>¿Cuáles CRM están usando en tu empresa? <br /> CRM:</p>
      
       <div className="step2-buttons-conteiner">

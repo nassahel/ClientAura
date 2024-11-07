@@ -33,3 +33,17 @@
 .input-name:focus {
     outline: none;
 }
+
+.current-step {
+    animation: aparecer 300ms ease-in forwards; 
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}

@@ -4,7 +4,7 @@ import { stepThreeButtons } from "./stepsButtonsData.ts"
 
 const Step3 = () => {
   return (
-    <div>
+    <div className="current-step">
       <p>¿Cuáles son tus principales desafios para 2024?</p>
       <div className="step2-buttons-conteiner">
         {
