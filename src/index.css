@@ -9,3 +9,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color-fuentes: #231331;
+    --gradiente: linear-gradient(283.73deg, #231331 -29.4%, #fa975d 50.02%);     /*---background---*/
+    --color-de-fondo: #F4F4F4;
+}
