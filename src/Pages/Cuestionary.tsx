@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import "./cuestionary.css"
-import person from "../assets/img/Group-178.png"
-import logo from "../assets/img/Group-86.png"
+import person from "../assets/img/Group-178-3.png"
+import logo from "../assets/img/Group 171-2.png"
 import NextStepButton from '../components/buttons/NextStepButton'
 import BackButton from '../components/buttons/BackButton'
 import { useResponses } from "../Context/ResponsesContext"
@@ -18,7 +18,7 @@ const Cuestionary = () => {
 
     const handleNextStep = () => {
         if (step < 6) setStep(prevStep => prevStep + 1)
-        if (step === 6) window.location.href = 'https://www.customerscoops.com/';
+        if (step === 6) window.location.href = 'https://nassahel-portfolio.vercel.app/';
     }
     const handleBackStep = () => { if (step >= 1) setStep(prevStep => prevStep - 1) }
     const percent: number[] = [17, 34, 50, 67, 84, 100];
