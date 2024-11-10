@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import "./cuestionary.css"
-import person from "../assets/img/Group-178-3.png"
+import person from "../assets/img/Group-178-4.png"
 import logo from "../assets/img/Group 171-2.png"
 import NextStepButton from '../components/buttons/NextStepButton'
 import BackButton from '../components/buttons/BackButton'
