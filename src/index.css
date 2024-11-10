@@ -12,6 +12,8 @@ body {
 
 :root {
     --color-fuentes: #231331;
-    --gradiente: linear-gradient(283.73deg, #231331 -29.4%, #fa975d 50.02%);     /*---background---*/
+    --gradiente: linear-gradient(283.73deg, #9ebd13  -29.4%, #008552 50.02%);     /*---background---*/
     --color-de-fondo: #F4F4F4;
 }
+
+
